@@ -1,0 +1,272 @@
+{
+  "created": "2025-11-26 06:53:39",
+  "messages": [
+    {
+      "facets": [],
+      "level": -1,
+      "message": "Document retrieved successfully.",
+      "ref": null,
+      "tag": null,
+      "title": "Retrieved HTML document in 0.07 sec.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://nginx.org/css/style_en.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://nginx.org/css/style_en.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "<div class=\"text-danger\">Almost standards mode doctype. Expected \u201c<!DOCTYPE html>\u201d.</div><div class=\"text-danger\">Element \u201cdiv\u201d not allowed as child of element \u201ca\u201d in this context. (Suppressing further errors from this subtree.)</div><div class=\"text-danger\">CSS: \u201cmso-hide\u201d: Property \u201cmso-hide\u201d doesn't exist.</div><div class=\"text-danger\">Element \u201ca\u201d is missing required attribute \u201chref\u201d.</div><div class=\"text-danger\">The \u201cname\u201d attribute on the \u201ca\u201d element is obsolete. Consider putting an \u201cid\u201d attribute on the nearest container instead.</div><div class=\"text-danger\">The \u201ccenter\u201d element is obsolete. Use CSS instead.</div><div class=\"text-danger\">Element \u201ca\u201d is missing required attribute \u201chref\u201d.</div><div class=\"text-danger\">The \u201cname\u201d attribute on the \u201ca\u201d element is obsolete. Consider putting an \u201cid\u201d attribute on the nearest container instead.</div><div class=\"text-danger\">The \u201ccenter\u201d element is obsolete. Use CSS instead.</div><p>Please check the reference below for the full list of issues.</p>",
+      "ref": [
+        "https://validator.w3.org/nu/?doc=https://nginx.org/en/docs/"
+      ],
+      "tag": "Html",
+      "title": "Invalid HTML document https://nginx.org/en/docs/. 13 errors.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "\nInvalid links prevent web bots from accessing the full content in order\nto preserve it. Also check out https://en.wikipedia.org/wiki/Link_rot <br /> Valid links: <br /> <a href=\"https://nginx.org/en/docs/http/load_balancing.html\" class=\"text-success\">https://nginx.org/en/docs/http/load_balancing.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_realip_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_realip_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_ssl_preread_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_ssl_preread_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_ssi_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_ssi_module.html</a><br /> <a href=\"https://nginx.org/en/docs/debugging_log.html\" class=\"text-success\">https://nginx.org/en/docs/debugging_log.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_map_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_map_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_num_map_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_num_map_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_referer_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_referer_module.html</a><br /> <a href=\"https://nginx.org/en/docs/ngx_otel_module.html\" class=\"text-success\">https://nginx.org/en/docs/ngx_otel_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_flv_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_flv_module.html</a><br /> <a href=\"https://nginx.org/en/docs/install.html\" class=\"text-success\">https://nginx.org/en/docs/install.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_random_index_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_random_index_module.html</a><br /> <a href=\"https://github.com/nginx/nginx-gateway-fabric\" class=\"text-success\">https://github.com/nginx/nginx-gateway-fabric</a><br /> <a href=\"https://nginx.org/en/docs/ngx_core_module.html\" class=\"text-success\">https://nginx.org/en/docs/ngx_core_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_sub_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_sub_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_dav_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_dav_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_browser_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_browser_module.html</a><br /> <a href=\"https://nginx.org/en/docs/howto_build_on_win32.html\" class=\"text-success\">https://nginx.org/en/docs/howto_build_on_win32.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_mp4_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_mp4_module.html</a><br /> <a href=\"https://nginx.org/en/docs/contributing_changes.html\" class=\"text-success\">https://nginx.org/en/docs/contributing_changes.html</a><br /> <a href=\"https://x.com/nginxorg\" class=\"text-success\">https://x.com/nginxorg</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_userid_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_userid_module.html</a><br /> <a href=\"https://nginx.org/en/docs/dev/development_guide.html\" class=\"text-success\">https://nginx.org/en/docs/dev/development_guide.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_auth_jwt_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_auth_jwt_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/stream_processing.html\" class=\"text-success\">https://nginx.org/en/docs/stream/stream_processing.html</a><br /> <a href=\"https://community.nginx.org\" class=\"text-success\">https://community.nginx.org</a><br /> <a href=\"https://nginx.org/news.html\" class=\"text-success\">https://nginx.org/news.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_session_log_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_session_log_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_rewrite_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_rewrite_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_upstream_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_upstream_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_oidc_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_oidc_module.html</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_proxy_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_proxy_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_proxy_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_proxy_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_charset_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_charset_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_core_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_core_module.html</a><br /> <a href=\"https://nginx.org/en/docs/windows.html\" class=\"text-success\">https://nginx.org/en/docs/windows.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_upstream_conf_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_upstream_conf_module.html</a><br /> <a href=\"https://nginx.org/en/community.html\" class=\"text-success\">https://nginx.org/en/community.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_xslt_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_xslt_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_status_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_status_module.html</a><br /> <a href=\"https://nginx.org/en/docs/faq.html\" class=\"text-success\">https://nginx.org/en/docs/faq.html</a><br /> <a href=\"https://github.com/nginx/kubernetes-ingress\" class=\"text-success\">https://github.com/nginx/kubernetes-ingress</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_keyval_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_keyval_module.html</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_imap_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_imap_module.html</a><br /> <a href=\"https://github.com/kubernetes/ingress-nginx\" class=\"text-success\">https://github.com/kubernetes/ingress-nginx</a><br /> <a href=\"https://nginx.org/en/docs/hash.html\" class=\"text-success\">https://nginx.org/en/docs/hash.html</a><br /> <a href=\"https://nginx.org/en/enterprise.html\" class=\"text-success\">https://nginx.org/en/enterprise.html</a><br /> <a href=\"https://nginx.org/en/docs/varindex.html\" class=\"text-success\">https://nginx.org/en/docs/varindex.html</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_pop3_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_pop3_module.html</a><br /> <a href=\"https://nginx.org/en/docs/nginx_dtrace_pid_provider.html\" class=\"text-success\">https://nginx.org/en/docs/nginx_dtrace_pid_provider.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_scgi_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_scgi_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_limit_conn_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_limit_conn_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_gunzip_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_gunzip_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_geoip_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_geoip_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_pass_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_pass_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_upstream_hc_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_upstream_hc_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_geoip_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_geoip_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_stub_status_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_stub_status_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_addition_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_addition_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_proxy_protocol_vendor_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_proxy_protocol_vendor_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_f4f_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_f4f_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_upstream_hc_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_upstream_hc_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_grpc_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_grpc_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_gzip_static_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_gzip_static_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_hls_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_hls_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_fastcgi_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_fastcgi_module.html</a><br /> <a href=\"https://nginx.org/en/docs/configure.html\" class=\"text-success\">https://nginx.org/en/docs/configure.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_return_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_return_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_autoindex_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_autoindex_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/request_processing.html\" class=\"text-success\">https://nginx.org/en/docs/http/request_processing.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_upstream_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_upstream_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_index_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_index_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_access_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_access_module.html</a><br /> <a href=\"http://www.aosabook.org/en/nginx.html\" class=\"text-success\">http://www.aosabook.org/en/nginx.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_internal_redirect_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_internal_redirect_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_set_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_set_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_auth_request_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_auth_request_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/configuring_https_servers.html\" class=\"text-success\">https://nginx.org/en/docs/http/configuring_https_servers.html</a><br /> <a href=\"https://nginx.org/en/download.html\" class=\"text-success\">https://nginx.org/en/download.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_v2_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_v2_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_uwsgi_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_uwsgi_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_js_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_js_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_limit_req_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_limit_req_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_api_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_api_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_acme_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_acme_module.html</a><br /> <a href=\"https://blog.nginx.org/\" class=\"text-success\">https://blog.nginx.org/</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_core_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_core_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_mqtt_filter_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_mqtt_filter_module.html</a><br /> <a href=\"https://nginx.org/en/books.html\" class=\"text-success\">https://nginx.org/en/books.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_geo_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_geo_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_empty_gif_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_empty_gif_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_mirror_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_mirror_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_memcached_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_memcached_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_split_clients_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_split_clients_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_keyval_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_keyval_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_zone_sync_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_zone_sync_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_num_map_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_num_map_module.html</a><br /> <a href=\"https://nginx.org/en/docs/syslog.html\" class=\"text-success\">https://nginx.org/en/docs/syslog.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_log_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_log_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/server_names.html\" class=\"text-success\">https://nginx.org/en/docs/http/server_names.html</a><br /> <a href=\"https://nginx.org/en/docs/syntax.html\" class=\"text-success\">https://nginx.org/en/docs/syntax.html</a><br /> <a href=\"https://blog.nginx.org/blog/the-ingress-nginx-alternative-open-source-nginx-ingress-controller-for-the-long-term\" class=\"text-success\">https://blog.nginx.org/blog/the-ingress-nginx-alternative-open-source-nginx-ingress-controller-for-the-long-term</a><br /> <a href=\"https://nginx.org/en/docs/http/websocket.html\" class=\"text-success\">https://nginx.org/en/docs/http/websocket.html</a><br /> <a href=\"https://nginx.org/en/\" class=\"text-success\">https://nginx.org/en/</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_secure_link_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_secure_link_module.html</a><br /> <a href=\"https://nginx.org/en/docs/njs/index.html\" class=\"text-success\">https://nginx.org/en/docs/njs/index.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_image_filter_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_image_filter_module.html</a><br /> <a href=\"https://nginx.org/en/docs/dirindex.html\" class=\"text-success\">https://nginx.org/en/docs/dirindex.html</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_core_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_core_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_log_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_log_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_limit_conn_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_limit_conn_module.html</a><br /> <a href=\"https://nginx.org/en/docs/ngx_google_perftools_module.html\" class=\"text-success\">https://nginx.org/en/docs/ngx_google_perftools_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_realip_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_realip_module.html</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_smtp_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_smtp_module.html</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_realip_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_realip_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_v3_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_v3_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_perl_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_perl_module.html</a><br /> <a href=\"https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-amazon-web-services/\" class=\"text-success\">https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-amazon-web-services/</a><br /> <a href=\"https://nginx.org/en/docs/ngx_mgmt_module.html\" class=\"text-success\">https://nginx.org/en/docs/ngx_mgmt_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_tunnel_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_tunnel_module.html</a><br /> <a href=\"https://nginx.org/en/docs/quic.html\" class=\"text-success\">https://nginx.org/en/docs/quic.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_js_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_js_module.html</a><br /> <a href=\"https://docs.nginx.com/nginx/admin-guide/\" class=\"text-success\">https://docs.nginx.com/nginx/admin-guide/</a><br /> <a href=\"https://nginx.org/en/security_advisories.html\" class=\"text-success\">https://nginx.org/en/security_advisories.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_ssl_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_ssl_module.html</a><br /> <a href=\"https://nginx.org/ru/docs/\" class=\"text-success\">https://nginx.org/ru/docs/</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_split_clients_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_split_clients_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_access_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_access_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_proxy_protocol_vendor_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_proxy_protocol_vendor_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_geo_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_geo_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_gzip_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_gzip_module.html</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_ssl_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_ssl_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_map_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_map_module.html</a><br /> <a href=\"https://nginx.org/en/docs/control.html\" class=\"text-success\">https://nginx.org/en/docs/control.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_ssl_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_ssl_module.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_mqtt_preread_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_mqtt_preread_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_headers_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_headers_module.html</a><br /> <a href=\"https://nginx.org/en/docs/switches.html\" class=\"text-success\">https://nginx.org/en/docs/switches.html</a><br /> <a href=\"https://nginx.org/en/docs/stream/ngx_stream_proxy_module.html\" class=\"text-success\">https://nginx.org/en/docs/stream/ngx_stream_proxy_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_slice_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_slice_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/ngx_http_auth_require_module.html\" class=\"text-success\">https://nginx.org/en/docs/http/ngx_http_auth_require_module.html</a><br /> <a href=\"https://nginx.org/en/docs/beginners_guide.html\" class=\"text-success\">https://nginx.org/en/docs/beginners_guide.html</a><br /> <a href=\"https://nginx.org/\" class=\"text-success\">https://nginx.org/</a><br /> <a href=\"https://nginx.org/en/docs/mail/ngx_mail_auth_http_module.html\" class=\"text-success\">https://nginx.org/en/docs/mail/ngx_mail_auth_http_module.html</a><br /> <a href=\"https://nginx.org/en/docs/http/converting_rewrite_rules.html\" class=\"text-success\">https://nginx.org/en/docs/http/converting_rewrite_rules.html</a><br /> <a href=\"https://nginx.org/en/docs/njs/\" class=\"text-success\">https://nginx.org/en/docs/njs/</a><br /> <a href=\"https://nginx.org/css/style_en.css\" class=\"text-success\">https://nginx.org/css/style_en.css</a><br /> <a href=\"https://nginx.org/en/docs/events.html\" class=\"text-success\">https://nginx.org/en/docs/events.html</a><br /> ",
+      "ref": [
+        "http://validator.w3.org/checklink?uri=https://nginx.org/en/docs/&hide_type=all&depth=&check=Check"
+      ],
+      "tag": "Links",
+      "title": "There are 149 valid and 0 invalid links.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 local :<br /> <a class=\"text-success\" href=\"https://nginx.org/css/style_en.css\">https://nginx.org/css/style_en.css</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local CSS found: 1, remote CSS found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local scripts found: 0, remote scripts found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Inline JavaScript code inside HTML is considered a bad practice. The absence of inline JavaScript simplifies archiving.",
+      "ref": [
+        "http://stackoverflow.com/questions/14928068/they-said-javascript-code-in-html-considered-bad-practice-how-to-solve-this"
+      ],
+      "tag": null,
+      "title": "No inline script elements found.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "\n<table class=\"table table-condensed\"> <tr><td>Server</td><td>nginx/1.29.0</td></tr> <tr><td>Date</td><td>Sun, 07 Dec 2025 14:51:25 GMT</td></tr> <tr><td>Content-Type</td><td>text/html; charset=utf-8</td></tr> <tr><td>Content-Length</td><td>2744</td></tr> <tr><td>Last-Modified</td><td>Sat, 06 Dec 2025 14:36:48 GMT</td></tr> <tr><td>Connection</td><td>keep-alive</td></tr> <tr><td>Keep-Alive</td><td>timeout=15</td></tr> <tr><td>ETag</td><td>\"69343f80-ab8\"</td></tr> <tr><td>Content-Encoding</td><td>gzip</td></tr> <tr><td>Strict-Transport-Security</td><td>max-age=31536000</td></tr> <tr><td>Accept-Ranges</td><td>bytes</td></tr> </table>",
+      "ref": null,
+      "tag": null,
+      "title": "HTTP Headers found",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "This header defines type of encoding used on the data. (e.g. compression).",
+      "ref": [
+        "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields ",
+        "https://en.wikipedia.org/wiki/HTTP_compression"
+      ],
+      "tag": null,
+      "title": "Content encoding was clearly defined in HTTP Headers.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "Correctly defined HTTP headers help web bots understand the content.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/MIME"
+      ],
+      "tag": null,
+      "title": "Content type was clearly defined.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": " Expires was not defined. <br /> <strong>Last-Modified</strong> was clearly defined in HTTP headers: <strong>Sat, 06 Dec 2025 14:36:48 GMT</strong>. <br/> <strong>Etag</strong> was clearly defined in HTTP headers: <strong>\"69343f80-ab8\"</strong>. <br />\nHTTP caching headers are critical to improve web archiving bots performance\nbecause they help avoid downloading unmodified content multiple times.",
+      "ref": [
+        "https://developers.google.com/speed/docs/best-practices/caching"
+      ],
+      "tag": null,
+      "title": "HTTP caching headers enabled.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "<pre>Disallow: /libxslt/</pre>\nDisallow: commands are used to block web bots from specific website areas.\nThey may cause web archiving problems.",
+      "ref": [
+        "http://www.robotstxt.org/robotstxt.html"
+      ],
+      "tag": null,
+      "title": "There are \"Disallow:\" commands in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "This is used to tell web robots where your sitemap is located and increase site accessiblity.",
+      "ref": [
+        "http://www.advancedhtml.co.uk/robots-sitemaps.htm"
+      ],
+      "tag": null,
+      "title": "There is a sitemap.xml reference in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Sitemaps are an easy way for webmasters to inform web bots about available web pages so that they can more intelligently crawl the site.",
+      "ref": [
+        "http://www.sitemaps.org/"
+      ],
+      "tag": null,
+      "title": "Sitemap file exists https://nginx.org/sitemap.xml",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 2 local :<br /> <a class=\"text-success\" href=\"https://nginx.org/img/nginx_logo_dark.svg\">https://nginx.org/img/nginx_logo_dark.svg</a><br /> <a class=\"text-success\" href=\"https://nginx.org/img/nginx_logo.svg\">https://nginx.org/img/nginx_logo.svg</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": "Images",
+      "title": "Local images found: 2, remote images found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "Format validation is the process of determining the level of compliance of a digital object to the specification for its purported format, e.g.: I have an object purportedly of format F; is it?",
+      "ref": [
+        "https://jhove.sourceforge.net/"
+      ],
+      "tag": "Images",
+      "title": "Checking 2 images with JHOVE Object Validation Environment",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-07 15:50:38 GMT+01:00 RepresentationInformation: /dev/shm/tmpstek1nph ReportingModule: XML-hul, Rel. 1.5.3 (2023-03-16) LastModified: 2025-12-07 15:50:38 GMT+01:00 Size: 50653 Format: XML Version: 1.0 Status: Well-Formed SignatureMatches: XML-hul MIMEtype: text/xml XMLMetadata: Parser: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser Encoding: UTF-8 Schemas: Schema: NamespaceURI: http://www.w3.org/2000/svg SchemaLocation: Schema: NamespaceURI: http://ns.adobe.com/AdobeIllustrator/10.0/ SchemaLocation: Root: svg Namespaces: Namespace: Prefix: URI: http://www.w3.org/2000/svg Namespace: Prefix: i URI: http://ns.adobe.com/AdobeIllustrator/10.0/ Comments: Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141) </pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://nginx.org/img/nginx_logo_dark.svg",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-07 15:50:38 GMT+01:00 RepresentationInformation: /dev/shm/tmp6upunvvs ReportingModule: XML-hul, Rel. 1.5.3 (2023-03-16) LastModified: 2025-12-07 15:50:38 GMT+01:00 Size: 50917 Format: XML Version: 1.0 Status: Well-Formed SignatureMatches: XML-hul MIMEtype: text/xml XMLMetadata: Parser: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser Encoding: UTF-8 Schemas: Schema: NamespaceURI: http://www.w3.org/2000/svg SchemaLocation: Schema: NamespaceURI: http://ns.adobe.com/AdobeIllustrator/10.0/ SchemaLocation: Root: svg Namespaces: Namespace: Prefix: URI: http://www.w3.org/2000/svg Namespace: Prefix: i URI: http://ns.adobe.com/AdobeIllustrator/10.0/ Comments: Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141) </pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://nginx.org/img/nginx_logo.svg",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "Proprietary formats are not recommended for long term preservation. Please consider changing your content to open formats.",
+      "ref": [
+        "http://www.ands.org.au/guides/file-formats-working.html"
+      ],
+      "tag": null,
+      "title": "You are not using any external proprietary objects (Flash, Quicktime).",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 73,
+      "message": "Website performance affects greatly the process of data aggregation and web accessibility. Performance evaluation rating is 100 when response time is 200ms or less and 0 when response time is more than 2sec.",
+      "ref": [
+        "https://developers.google.com/speed/docs/insights/Server"
+      ],
+      "tag": null,
+      "title": "Network response time is 490 ms",
+      "weight": "HIGH"
+    }
+  ],
+  "test": {
+    "Accessibility": 88,
+    "Accessibility_weight": "medium",
+    "Cohesion": 100,
+    "Cohesion_weight": "medium",
+    "Metadata": 100,
+    "Metadata_weight": "medium",
+    "Standards_Compliance": 67,
+    "Standards_Compliance_weight": "medium",
+    "website_archivability": 89
+  },
+  "test_id": 499156,
+  "url": "https://nginx.org/en/docs/"
+}

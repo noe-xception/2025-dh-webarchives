@@ -1,0 +1,301 @@
+{
+  "created": "2025-11-26 06:53:39",
+  "messages": [
+    {
+      "facets": [],
+      "level": -1,
+      "message": "Document retrieved successfully.",
+      "ref": null,
+      "tag": null,
+      "title": "Retrieved HTML document in 0.21 sec.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://alpinejs.dev/build/assets/app.dc202bf3.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://alpinejs.dev/build/assets/app.dc202bf3.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&display=swap&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&display=swap. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://cdn.jsdelivr.net/npm/@docsearch/css@3&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://cdn.jsdelivr.net/npm/@docsearch/css@3. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "<div class=\"text-danger\">Attribute \u201cx-data\u201d not allowed on element \u201cdiv\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-on:click\u201d not allowed on element \u201cbutton\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-show\u201d not allowed on element \u201cdiv\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-trap.inert.noscroll\u201d not allowed on element \u201cdiv\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-on:click.outside\u201d not allowed on element \u201cdiv\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-on:keydown.escape.prevent.stop\u201d not allowed on element \u201cdiv\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-transition:enter\u201d not allowed on element \u201cdiv\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-transition:enter-start\u201d not allowed on element \u201cdiv\u201d at this point.</div><div class=\"text-danger\">Attribute \u201cx-transition:enter-end\u201d not allowed on element \u201cdiv\u201d at this point.</div><p>Please check the reference below for the full list of issues.</p>",
+      "ref": [
+        "https://validator.w3.org/nu/?doc=https://alpinejs.dev/start-here"
+      ],
+      "tag": "Html",
+      "title": "Invalid HTML document https://alpinejs.dev/start-here. 17 errors.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 98,
+      "message": "\nInvalid links prevent web bots from accessing the full content in order\nto preserve it. Also check out https://en.wikipedia.org/wiki/Link_rot <br /> Invalid links: <br /> <a href=\"https://alpinejs.dev/cdn-cgi/l/email-protection\" class=\"text-danger\">https://alpinejs.dev/cdn-cgi/l/email-protection</a><br /> <br /> Valid links: <br /> <a href=\"https://alpinejs.dev/plugins/sort\" class=\"text-success\">https://alpinejs.dev/plugins/sort</a><br /> <a href=\"https://alpinejs.dev/magics/root\" class=\"text-success\">https://alpinejs.dev/magics/root</a><br /> <a href=\"https://alpinejs.dev/start-here#listening-for-events\" class=\"text-success\">https://alpinejs.dev/start-here#listening-for-events</a><br /> <a href=\"https://alpinejs.dev/plugins/mask\" class=\"text-success\">https://alpinejs.dev/plugins/mask</a><br /> <a href=\"https://alpinejs.dev/directives/if\" class=\"text-success\">https://alpinejs.dev/directives/if</a><br /> <a href=\"https://alpinejs.dev/plugins/focus\" class=\"text-success\">https://alpinejs.dev/plugins/focus</a><br /> <a href=\"https://alpinejs.dev/directives/data\" class=\"text-success\">https://alpinejs.dev/directives/data</a><br /> <a href=\"https://github.com/alpinejs/alpine\" class=\"text-success\">https://github.com/alpinejs/alpine</a><br /> <a href=\"https://alpinejs.dev/start-here#looping-elements\" class=\"text-success\">https://alpinejs.dev/start-here#looping-elements</a><br /> <a href=\"https://alpinejs.dev/essentials/state\" class=\"text-success\">https://alpinejs.dev/essentials/state</a><br /> <a href=\"https://alpinejs.dev/directives/teleport\" class=\"text-success\">https://alpinejs.dev/directives/teleport</a><br /> <a href=\"https://alpinejs.dev/magics/el\" class=\"text-success\">https://alpinejs.dev/magics/el</a><br /> <a href=\"https://alpinejs.dev/globals/alpine-store\" class=\"text-success\">https://alpinejs.dev/globals/alpine-store</a><br /> <a href=\"https://alpinejs.dev/start-here#toggling-elements\" class=\"text-success\">https://alpinejs.dev/start-here#toggling-elements</a><br /> <a href=\"https://alpinejs.dev/advanced/async\" class=\"text-success\">https://alpinejs.dev/advanced/async</a><br /> <a href=\"https://alpinejs.dev/component/dropdown\" class=\"text-success\">https://alpinejs.dev/component/dropdown</a><br /> <a href=\"https://alpinejs.dev/start-here#multi-line-formatting\" class=\"text-success\">https://alpinejs.dev/start-here#multi-line-formatting</a><br /> <a href=\"https://alpinejs.dev/start-here#declaring-data\" class=\"text-success\">https://alpinejs.dev/start-here#declaring-data</a><br /> <a href=\"https://alpinejs.dev/essentials/templating\" class=\"text-success\">https://alpinejs.dev/essentials/templating</a><br /> <a href=\"https://alpinejs.dev/directives/for\" class=\"text-success\">https://alpinejs.dev/directives/for</a><br /> <a href=\"https://alpinejs.dev/start-here#binding-to-inputs\" class=\"text-success\">https://alpinejs.dev/start-here#binding-to-inputs</a><br /> <a href=\"https://alpinejs.dev/component/modal\" class=\"text-success\">https://alpinejs.dev/component/modal</a><br /> <a href=\"https://alpinejs.dev/plugins/anchor\" class=\"text-success\">https://alpinejs.dev/plugins/anchor</a><br /> <a href=\"https://alpinejs.codewithhugo.com/chat/\" class=\"text-success\">https://alpinejs.codewithhugo.com/chat/</a><br /> <a href=\"https://alpinejs.dev/directives/on#modifiers\" class=\"text-success\">https://alpinejs.dev/directives/on#modifiers</a><br /> <a href=\"https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&amp;display=swap\" class=\"text-success\">https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&amp;display=swap</a><br /> <a href=\"https://alpinejs.dev/start-here#building-a-counter\" class=\"text-success\">https://alpinejs.dev/start-here#building-a-counter</a><br /> <a href=\"https://alpinejs.dev/directives/text\" class=\"text-success\">https://alpinejs.dev/directives/text</a><br /> <a href=\"https://alpinejs.dev/directives/model\" class=\"text-success\">https://alpinejs.dev/directives/model</a><br /> <a href=\"https://alpinejs.dev/magics/nextTick\" class=\"text-success\">https://alpinejs.dev/magics/nextTick</a><br /> <a href=\"https://alpinejs.dev/directives/transition\" class=\"text-success\">https://alpinejs.dev/directives/transition</a><br /> <a href=\"https://alpinejs.dev/directives/ignore\" class=\"text-success\">https://alpinejs.dev/directives/ignore</a><br /> <a href=\"https://cdn.jsdelivr.net/npm/@docsearch/css@3\" class=\"text-success\">https://cdn.jsdelivr.net/npm/@docsearch/css@3</a><br /> <a href=\"https://alpinejs.dev/components\" class=\"text-success\">https://alpinejs.dev/components</a><br /> <a href=\"https://alpinejs.dev/upgrade-guide\" class=\"text-success\">https://alpinejs.dev/upgrade-guide</a><br /> <a href=\"https://alpinejs.dev/plugins/collapse\" class=\"text-success\">https://alpinejs.dev/plugins/collapse</a><br /> <a href=\"https://alpinejs.dev/start-here#building-a-dropdown\" class=\"text-success\">https://alpinejs.dev/start-here#building-a-dropdown</a><br /> <a href=\"https://alpinejs.dev/directives/show\" class=\"text-success\">https://alpinejs.dev/directives/show</a><br /> <a href=\"https://alpinejs.dev/plugins/intersect\" class=\"text-success\">https://alpinejs.dev/plugins/intersect</a><br /> <a href=\"https://alpinejs.dev/start-here#listening-for-a-click-outside\" class=\"text-success\">https://alpinejs.dev/start-here#listening-for-a-click-outside</a><br /> <a href=\"https://alpinejs.dev/magics/store\" class=\"text-success\">https://alpinejs.dev/magics/store</a><br /> <a href=\"https://alpinejs.dev/directives/ref\" class=\"text-success\">https://alpinejs.dev/directives/ref</a><br /> <a href=\"https://alpinejs.dev/directives/on\" class=\"text-success\">https://alpinejs.dev/directives/on</a><br /> <a href=\"https://alpinejs.dev/advanced/reactivity\" class=\"text-success\">https://alpinejs.dev/advanced/reactivity</a><br /> <a href=\"https://alpinejs.dev/essentials/events\" class=\"text-success\">https://alpinejs.dev/essentials/events</a><br /> <a href=\"https://alpinejs.dev/magics/data\" class=\"text-success\">https://alpinejs.dev/magics/data</a><br /> <a href=\"https://alpinejs.dev/start-here#computed-properties-using-getters\" class=\"text-success\">https://alpinejs.dev/start-here#computed-properties-using-getters</a><br /> <a href=\"https://torchlight.dev\" class=\"text-success\">https://torchlight.dev</a><br /> <a href=\"https://alpinejs.dev/directives/effect\" class=\"text-success\">https://alpinejs.dev/directives/effect</a><br /> <a href=\"https://alpinejs.dev/magics/refs\" class=\"text-success\">https://alpinejs.dev/magics/refs</a><br /> <a href=\"https://alpinejs.dev/directives/bind\" class=\"text-success\">https://alpinejs.dev/directives/bind</a><br /> <a href=\"https://alpinejs.dev/plugins/morph\" class=\"text-success\">https://alpinejs.dev/plugins/morph</a><br /> <a href=\"https://alpinejs.dev/start-here#building-a-search-input\" class=\"text-success\">https://alpinejs.dev/start-here#building-a-search-input</a><br /> <a href=\"https://alpinejs.dev/globals/alpine-bind\" class=\"text-success\">https://alpinejs.dev/globals/alpine-bind</a><br /> <a href=\"https://alpinejs.dev/advanced/csp\" class=\"text-success\">https://alpinejs.dev/advanced/csp</a><br /> <a href=\"https://alpinejs.dev/\" class=\"text-success\">https://alpinejs.dev/</a><br /> <a href=\"https://alpinejs.dev/essentials/installation\" class=\"text-success\">https://alpinejs.dev/essentials/installation</a><br /> <a href=\"https://alpinejs.dev/start-here#reacting-to-changes\" class=\"text-success\">https://alpinejs.dev/start-here#reacting-to-changes</a><br /> <a href=\"https://alpinejs.dev/build/assets/app.dc202bf3.css\" class=\"text-success\">https://alpinejs.dev/build/assets/app.dc202bf3.css</a><br /> <a href=\"https://alpinejs.dev/components#pricing\" class=\"text-success\">https://alpinejs.dev/components#pricing</a><br /> <a href=\"https://alpinejs.dev/essentials/lifecycle\" class=\"text-success\">https://alpinejs.dev/essentials/lifecycle</a><br /> <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get\" class=\"text-success\">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get</a><br /> <a href=\"https://alpinejs.dev/directives/init\" class=\"text-success\">https://alpinejs.dev/directives/init</a><br /> <a href=\"https://alpinejs.dev/start-here\" class=\"text-success\">https://alpinejs.dev/start-here</a><br /> <a href=\"https://alpinejs.dev/start-here#recap\" class=\"text-success\">https://alpinejs.dev/start-here#recap</a><br /> <a href=\"https://alpinejs.dev/magics/id\" class=\"text-success\">https://alpinejs.dev/magics/id</a><br /> <a href=\"https://alpinejs.dev/magics/dispatch\" class=\"text-success\">https://alpinejs.dev/magics/dispatch</a><br /> <a href=\"https://twitter.com/Alpine_JS\" class=\"text-success\">https://twitter.com/Alpine_JS</a><br /> <a href=\"https://alpinejs.dev/advanced/extending\" class=\"text-success\">https://alpinejs.dev/advanced/extending</a><br /> <a href=\"https://alpinejs.dev/globals/alpine-data\" class=\"text-success\">https://alpinejs.dev/globals/alpine-data</a><br /> <a href=\"https://alpinejs.dev/magics/watch\" class=\"text-success\">https://alpinejs.dev/magics/watch</a><br /> <a href=\"https://alpinejs.dev/directives/id\" class=\"text-success\">https://alpinejs.dev/directives/id</a><br /> <a href=\"https://alpinejs.dev/directives/html\" class=\"text-success\">https://alpinejs.dev/directives/html</a><br /> <a href=\"https://alpinejs.dev/plugins/persist\" class=\"text-success\">https://alpinejs.dev/plugins/persist</a><br /> <a href=\"https://alpinejs.dev/directives/modelable\" class=\"text-success\">https://alpinejs.dev/directives/modelable</a><br /> <a href=\"https://alpinejs.dev/plugins/resize\" class=\"text-success\">https://alpinejs.dev/plugins/resize</a><br /> <a href=\"https://alpinejs.dev/directives/cloak\" class=\"text-success\">https://alpinejs.dev/directives/cloak</a><br /> ",
+      "ref": [
+        "http://validator.w3.org/checklink?uri=https://alpinejs.dev/start-here&hide_type=all&depth=&check=Check"
+      ],
+      "tag": "Links",
+      "title": "There are 77 valid and 1 invalid links.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "The description attribute provides a concise explanation of a Web page's content. This allows the Web page authors to give a more meaningful description for listings than might be displayed if the search engine was unable to automatically create its own description based on the page content. The description tag information is also used in web archives to describe archived web pages.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/Meta_element#The_description_attribute"
+      ],
+      "tag": null,
+      "title": "Description meta tag found with content: \"\"",
+      "weight": "LOW"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 33,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 local :<br /> <a class=\"text-success\" href=\"https://alpinejs.dev/build/assets/app.dc202bf3.css\">https://alpinejs.dev/build/assets/app.dc202bf3.css</a><br /> 2 remote :<br /> <a class=\"text-danger\" href=\"https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&amp;display=swap\">https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&amp;display=swap</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@docsearch/css@3\">https://cdn.jsdelivr.net/npm/@docsearch/css@3</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local CSS found: 1, remote CSS found: 2",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 12,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 2 local :<br /> <a class=\"text-success\" href=\"https://alpinejs.dev/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\">https://alpinejs.dev/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js</a><br /> <a class=\"text-success\" href=\"https://alpinejs.dev/livewire/livewire.js?id=de3fca26689cb5a39af4\">https://alpinejs.dev/livewire/livewire.js?id=de3fca26689cb5a39af4</a><br /> 14 remote :<br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/morph@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/morph@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/resize@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/resize@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/mask@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/mask@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/sort@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/sort@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/anchor@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/anchor@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@alpinejs/ui@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/@alpinejs/ui@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/alpinejs@3.15.2/dist/cdn.min.js\">https://cdn.jsdelivr.net/npm/alpinejs@3.15.2/dist/cdn.min.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.usefathom.com/script.js\">https://cdn.usefathom.com/script.js</a><br /> <a class=\"text-danger\" href=\"https://cdn.carbonads.com/carbon.js?serve=CESI52JU&amp;placement=alpinejsdev\">https://cdn.carbonads.com/carbon.js?serve=CESI52JU&amp;placement=alpinejsdev</a><br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/@docsearch/js@3\">https://cdn.jsdelivr.net/npm/@docsearch/js@3</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local scripts found: 2, remote scripts found: 14",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "Inline JavaScript code inside HTML is considered a bad practice. The absence of inline JavaScript simplifies archiving.",
+      "ref": [
+        "http://stackoverflow.com/questions/14928068/they-said-javascript-code-in-html-considered-bad-practice-how-to-solve-this"
+      ],
+      "tag": null,
+      "title": "3 inline script elements found",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "\n<table class=\"table table-condensed\"> <tr><td>Date</td><td>Sun, 07 Dec 2025 14:50:25 GMT</td></tr> <tr><td>Content-Type</td><td>text/html; charset=UTF-8</td></tr> <tr><td>Transfer-Encoding</td><td>chunked</td></tr> <tr><td>Connection</td><td>keep-alive</td></tr> <tr><td>Server</td><td>cloudflare</td></tr> <tr><td>Nel</td><td>{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}</td></tr> <tr><td>Vary</td><td>Accept-Encoding</td></tr> <tr><td>Cache-Control</td><td>no-cache, private</td></tr> <tr><td>Set-Cookie</td><td>XSRF-TOKEN=eyJpdiI6InFBT1BjaUQrVEc2ekl0NmllWWRwQ3c9PSIsInZhbHVlIjoiSitEZ3BSZ29TeVFsNFl6SEd4ZkpmeW8zNXBCSUN1L2hHTFArMVBpTVVxODBPbWFXMjAxRUliNXJlQ2xjQXdtRWVVUzJVcEV2RUF3eFpsS0NNNnBnamlQM2gwd3RBN2NsVnBkOGhOSG84cHd6QkdKWHRkMFFWN1NaMkN6SWIwUjciLCJtYWMiOiI3MmZjYzEwMDRjYjk2MGFmOGEyNGZiMjExYmM0NjEzY2NhZTUwNTBkYjVmOTMxYjYxYWIwMjY1MWU2YzBkNGNhIiwidGFnIjoiIn0%3D; expires=Wed, 07 Jan 2026 00:50:25 GMT; Max-Age=2628000; path=/; samesite=lax</td></tr> <tr><td>Set-Cookie</td><td>alpinejs_session=eyJpdiI6Ijk0VFNnOW5CbHNYZU1VKzk2cFJVNWc9PSIsInZhbHVlIjoibzhZZGNtVGRzWUFmcVVIV2pQT2FueGUwSWpzbzEzcDJCTzNiUVJaUUE1ZlljWGIyOEJFdUhtNVV6K2JENUVIMXBySk1yMHFFNUhDSnpONVJYMXhJc1c5N1ZybE9IREkvTHR4c2NiTysveEJPU1hKeCtreUllS3VtQVMwQnJYL1YiLCJtYWMiOiIzZjhkMTkyODI5NDRkNWIzMmYxNWUwNjhjZTcwOTIzZGZhZDE0ZTNkNzIxYjM4NWUxODllMWU5ZmFlNjZmNzczIiwidGFnIjoiIn0%3D; expires=Wed, 07 Jan 2026 00:50:25 GMT; Max-Age=2628000; path=/; httponly; samesite=lax</td></tr> <tr><td>X-Frame-Options</td><td>SAMEORIGIN</td></tr> <tr><td>X-XSS-Protection</td><td>1; mode=block</td></tr> <tr><td>X-Content-Type-Options</td><td>nosniff</td></tr> <tr><td>Report-To</td><td>{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=L6CDyEaeLQWDOKGhlXqEFp42hQROtY9nMfx33GfW%2BB%2B9TTPAgFc9mKaF50ere6zG%2BlWj7x7ySHHQPxAvrnE5tIwXYc2XjwQ1nzZvog%3D%3D\"}]}</td></tr> <tr><td>cf-cache-status</td><td>DYNAMIC</td></tr> <tr><td>Content-Encoding</td><td>gzip</td></tr> <tr><td>CF-RAY</td><td>9aa4d5d16b023801-FRA</td></tr> <tr><td>alt-svc</td><td>h3=\":443\"; ma=86400</td></tr> </table>",
+      "ref": null,
+      "tag": null,
+      "title": "HTTP Headers found",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "This header defines type of encoding used on the data. (e.g. compression).",
+      "ref": [
+        "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields ",
+        "https://en.wikipedia.org/wiki/HTTP_compression"
+      ],
+      "tag": null,
+      "title": "Content encoding was clearly defined in HTTP Headers.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "Correctly defined HTTP headers help web bots understand the content.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/MIME"
+      ],
+      "tag": null,
+      "title": "Content type was clearly defined.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Metadata"
+      ],
+      "level": 50,
+      "message": "HTTP caching headers are critical to improve web archiving bots performance because they help avoid downloading unmodified content multiple times.",
+      "ref": [
+        "https://developers.google.com/speed/docs/best-practices/caching"
+      ],
+      "tag": null,
+      "title": "HTTP caching headers are not available.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "<pre>Disallow:</pre>\nDisallow: commands are used to block web bots from specific website areas.\nThey may cause web archiving problems.",
+      "ref": [
+        "http://www.robotstxt.org/robotstxt.html"
+      ],
+      "tag": null,
+      "title": "There are \"Disallow:\" commands in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "This can be used to tell search engines or other robots where your sitemap is located.",
+      "ref": [
+        "http://www.advancedhtml.co.uk/robots-sitemaps.htm"
+      ],
+      "tag": null,
+      "title": "There is no sitemap.xml reference in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Sitemaps are an easy way for webmasters to inform web bots about available web pages so that they can more intelligently crawl the site.",
+      "ref": [
+        "http://www.sitemaps.org/"
+      ],
+      "tag": null,
+      "title": "Sitemap file exists https://alpinejs.dev/sitemap.xml",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 local :<br /> <a class=\"text-success\" href=\"https://alpinejs.dev/alpine_long.svg\">https://alpinejs.dev/alpine_long.svg</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": "Images",
+      "title": "Local images found: 1, remote images found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "Format validation is the process of determining the level of compliance of a digital object to the specification for its purported format, e.g.: I have an object purportedly of format F; is it?",
+      "ref": [
+        "https://jhove.sourceforge.net/"
+      ],
+      "tag": "Images",
+      "title": "Checking 1 images with JHOVE Object Validation Environment",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-07 15:50:26 GMT+01:00 RepresentationInformation: /dev/shm/tmplclxichr ReportingModule: XML-hul, Rel. 1.5.3 (2023-03-16) LastModified: 2025-12-07 15:50:26 GMT+01:00 Size: 8226 Format: XML Version: 1.0 Status: Well-Formed SignatureMatches: XML-hul MIMEtype: text/xml XMLMetadata: Parser: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser Encoding: UTF-8 Schemas: Schema: NamespaceURI: http://www.w3.org/2000/svg SchemaLocation: Root: svg Namespaces: Namespace: Prefix: URI: http://www.w3.org/2000/svg Namespace: Prefix: xlink URI: http://www.w3.org/1999/xlink\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://alpinejs.dev/alpine_long.svg",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "Proprietary formats are not recommended for long term preservation. Please consider changing your content to open formats.",
+      "ref": [
+        "http://www.ands.org.au/guides/file-formats-working.html"
+      ],
+      "tag": null,
+      "title": "You are not using any external proprietary objects (Flash, Quicktime).",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 80,
+      "message": "Website performance affects greatly the process of data aggregation and web accessibility. Performance evaluation rating is 100 when response time is 200ms or less and 0 when response time is more than 2sec.",
+      "ref": [
+        "https://developers.google.com/speed/docs/insights/Server"
+      ],
+      "tag": null,
+      "title": "Network response time is 370 ms",
+      "weight": "HIGH"
+    }
+  ],
+  "test": {
+    "Accessibility": 62,
+    "Accessibility_weight": "medium",
+    "Cohesion": 48,
+    "Cohesion_weight": "medium",
+    "Metadata": 80,
+    "Metadata_weight": "medium",
+    "Standards_Compliance": 52,
+    "Standards_Compliance_weight": "medium",
+    "website_archivability": 60
+  },
+  "test_id": 499153,
+  "url": "https://alpinejs.dev/start-here"
+}

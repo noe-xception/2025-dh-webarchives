@@ -1,0 +1,405 @@
+{
+  "created": "2025-11-26 06:53:39",
+  "messages": [
+    {
+      "facets": [],
+      "level": -1,
+      "message": "Document retrieved successfully.",
+      "ref": null,
+      "tag": null,
+      "title": "Retrieved HTML document in 0.04 sec.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/css/variables-3865ffda.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/css/variables-3865ffda.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/theme/2018-edition-4e126c62.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/theme/2018-edition-4e126c62.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/highlight-493f70e1.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/highlight-493f70e1.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/theme/semantic-notes-9b5766c0.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/theme/semantic-notes-9b5766c0.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/theme/listing-cab26221.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/theme/listing-cab26221.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/css/chrome-c0e702bf.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/css/chrome-c0e702bf.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/FontAwesome/css/font-awesome-799aeb25.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/FontAwesome/css/font-awesome-799aeb25.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/css/print-ad67d350.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/css/print-ad67d350.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/ferris-d33b75bf.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/ferris-d33b75bf.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/ayu-highlight-56612340.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/ayu-highlight-56612340.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/fonts/fonts-9644e21d.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/fonts/fonts-9644e21d.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/tomorrow-night-4c0ae647.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/tomorrow-night-4c0ae647.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://doc.rust-lang.org/book/css/general-4c35105a.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://doc.rust-lang.org/book/css/general-4c35105a.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "<div class=\"text-danger\">The \u201caria-label\u201d attribute must not be used on any \u201clabel\u201d element that is associated with a labelable element.</div><div class=\"text-danger\">The \u201caria-controls\u201d attribute must not be used on any \u201clabel\u201d element that is associated with a labelable element.</div>",
+      "ref": [
+        "https://validator.w3.org/nu/?doc=https://doc.rust-lang.org/book/"
+      ],
+      "tag": "Html",
+      "title": "Invalid HTML document https://doc.rust-lang.org/book/. 2 errors.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 95,
+      "message": "\nInvalid links prevent web bots from accessing the full content in order\nto preserve it. Also check out https://en.wikipedia.org/wiki/Link_rot <br /> Invalid links: <br /> <a href=\"https://nostarch.com/rust-programming-language-2nd-edition\" class=\"text-danger\">https://nostarch.com/rust-programming-language-2nd-edition</a><br /> <br /> Valid links: <br /> <a href=\"https://doc.rust-lang.org/book/css/variables-3865ffda.css\" class=\"text-success\">https://doc.rust-lang.org/book/css/variables-3865ffda.css</a><br /> <a href=\"https://doc.rust-lang.org/book/theme/semantic-notes-9b5766c0.css\" class=\"text-success\">https://doc.rust-lang.org/book/theme/semantic-notes-9b5766c0.css</a><br /> <a href=\"https://doc.rust-lang.org/book/ayu-highlight-56612340.css\" class=\"text-success\">https://doc.rust-lang.org/book/ayu-highlight-56612340.css</a><br /> <a href=\"https://doc.rust-lang.org/book/tomorrow-night-4c0ae647.css\" class=\"text-success\">https://doc.rust-lang.org/book/tomorrow-night-4c0ae647.css</a><br /> <a href=\"https://doc.rust-lang.org/stable/book/\" class=\"text-success\">https://doc.rust-lang.org/stable/book/</a><br /> <a href=\"https://doc.rust-lang.org/book/css/chrome-c0e702bf.css\" class=\"text-success\">https://doc.rust-lang.org/book/css/chrome-c0e702bf.css</a><br /> <a href=\"https://doc.rust-lang.org/book/css/print-ad67d350.css\" class=\"text-success\">https://doc.rust-lang.org/book/css/print-ad67d350.css</a><br /> <a href=\"https://doc.rust-lang.org/book/fonts/fonts-9644e21d.css\" class=\"text-success\">https://doc.rust-lang.org/book/fonts/fonts-9644e21d.css</a><br /> <a href=\"https://doc.rust-lang.org/book/ferris-d33b75bf.css\" class=\"text-success\">https://doc.rust-lang.org/book/ferris-d33b75bf.css</a><br /> <a href=\"https://rust-book.cs.brown.edu\" class=\"text-success\">https://rust-book.cs.brown.edu</a><br /> <a href=\"https://doc.rust-lang.org/book/FontAwesome/css/font-awesome-799aeb25.css\" class=\"text-success\">https://doc.rust-lang.org/book/FontAwesome/css/font-awesome-799aeb25.css</a><br /> <a href=\"https://doc.rust-lang.org/book/#the-rust-programming-language\" class=\"text-success\">https://doc.rust-lang.org/book/#the-rust-programming-language</a><br /> <a href=\"https://doc.rust-lang.org/book/ch01-01-installation.html\" class=\"text-success\">https://doc.rust-lang.org/book/ch01-01-installation.html</a><br /> <a href=\"https://github.com/rust-lang/book\" class=\"text-success\">https://github.com/rust-lang/book</a><br /> <a href=\"https://doc.rust-lang.org/book/css/general-4c35105a.css\" class=\"text-success\">https://doc.rust-lang.org/book/css/general-4c35105a.css</a><br /> <a href=\"https://doc.rust-lang.org/book/print.html\" class=\"text-success\">https://doc.rust-lang.org/book/print.html</a><br /> <a href=\"https://doc.rust-lang.org/book/foreword.html\" class=\"text-success\">https://doc.rust-lang.org/book/foreword.html</a><br /> <a href=\"https://doc.rust-lang.org/book/theme/2018-edition-4e126c62.css\" class=\"text-success\">https://doc.rust-lang.org/book/theme/2018-edition-4e126c62.css</a><br /> <a href=\"https://doc.rust-lang.org/book/highlight-493f70e1.css\" class=\"text-success\">https://doc.rust-lang.org/book/highlight-493f70e1.css</a><br /> <a href=\"https://doc.rust-lang.org/book/theme/listing-cab26221.css\" class=\"text-success\">https://doc.rust-lang.org/book/theme/listing-cab26221.css</a><br /> <a href=\"https://doc.rust-lang.org/book/appendix-06-translation.html\" class=\"text-success\">https://doc.rust-lang.org/book/appendix-06-translation.html</a><br /> ",
+      "ref": [
+        "http://validator.w3.org/checklink?uri=https://doc.rust-lang.org/book/&hide_type=all&depth=&check=Check"
+      ],
+      "tag": "Links",
+      "title": "There are 21 valid and 1 invalid links.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "The description attribute provides a concise explanation of a Web page's content. This allows the Web page authors to give a more meaningful description for listings than might be displayed if the search engine was unable to automatically create its own description based on the page content. The description tag information is also used in web archives to describe archived web pages.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/Meta_element#The_description_attribute"
+      ],
+      "tag": null,
+      "title": "Description meta tag found with content: \"\"",
+      "weight": "LOW"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 13 local :<br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/css/variables-3865ffda.css\">https://doc.rust-lang.org/book/css/variables-3865ffda.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/theme/2018-edition-4e126c62.css\">https://doc.rust-lang.org/book/theme/2018-edition-4e126c62.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/highlight-493f70e1.css\">https://doc.rust-lang.org/book/highlight-493f70e1.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/theme/semantic-notes-9b5766c0.css\">https://doc.rust-lang.org/book/theme/semantic-notes-9b5766c0.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/theme/listing-cab26221.css\">https://doc.rust-lang.org/book/theme/listing-cab26221.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/css/chrome-c0e702bf.css\">https://doc.rust-lang.org/book/css/chrome-c0e702bf.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/FontAwesome/css/font-awesome-799aeb25.css\">https://doc.rust-lang.org/book/FontAwesome/css/font-awesome-799aeb25.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/ayu-highlight-56612340.css\">https://doc.rust-lang.org/book/ayu-highlight-56612340.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/css/print-ad67d350.css\">https://doc.rust-lang.org/book/css/print-ad67d350.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/ferris-d33b75bf.css\">https://doc.rust-lang.org/book/ferris-d33b75bf.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/fonts/fonts-9644e21d.css\">https://doc.rust-lang.org/book/fonts/fonts-9644e21d.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/tomorrow-night-4c0ae647.css\">https://doc.rust-lang.org/book/tomorrow-night-4c0ae647.css</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/css/general-4c35105a.css\">https://doc.rust-lang.org/book/css/general-4c35105a.css</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local CSS found: 13, remote CSS found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 8 local :<br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/toc-18422fb5.js\">https://doc.rust-lang.org/book/toc-18422fb5.js</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/elasticlunr-ef4e11c1.min.js\">https://doc.rust-lang.org/book/elasticlunr-ef4e11c1.min.js</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/mark-09e88c2c.min.js\">https://doc.rust-lang.org/book/mark-09e88c2c.min.js</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/searcher-9aeb6ddf.js\">https://doc.rust-lang.org/book/searcher-9aeb6ddf.js</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/clipboard-1626706a.min.js\">https://doc.rust-lang.org/book/clipboard-1626706a.min.js</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/highlight-abc7f01d.js\">https://doc.rust-lang.org/book/highlight-abc7f01d.js</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/book-9576a2db.js\">https://doc.rust-lang.org/book/book-9576a2db.js</a><br /> <a class=\"text-success\" href=\"https://doc.rust-lang.org/book/ferris-2317480c.js\">https://doc.rust-lang.org/book/ferris-2317480c.js</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local scripts found: 8, remote scripts found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "Inline JavaScript code inside HTML is considered a bad practice. The absence of inline JavaScript simplifies archiving.",
+      "ref": [
+        "http://stackoverflow.com/questions/14928068/they-said-javascript-code-in-html-considered-bad-practice-how-to-solve-this"
+      ],
+      "tag": null,
+      "title": "6 inline script elements found",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "\n<table class=\"table table-condensed\"> <tr><td>Content-Type</td><td>text/html</td></tr> <tr><td>Transfer-Encoding</td><td>chunked</td></tr> <tr><td>Connection</td><td>keep-alive</td></tr> <tr><td>Last-Modified</td><td>Mon, 10 Nov 2025 18:48:57 GMT</td></tr> <tr><td>x-amz-version-id</td><td>G127rK_kW3rlbGQo8sd86c9eQTApOmDi</td></tr> <tr><td>x-amz-storage-class</td><td>INTELLIGENT_TIERING</td></tr> <tr><td>Server</td><td>AmazonS3</td></tr> <tr><td>Content-Encoding</td><td>gzip</td></tr> <tr><td>Date</td><td>Sun, 07 Dec 2025 03:50:39 GMT</td></tr> <tr><td>ETag</td><td>W/\"47ad03efb6617283aeea5f41b54c1f1c\"</td></tr> <tr><td>Vary</td><td>Accept-Encoding</td></tr> <tr><td>X-Cache</td><td>Hit from cloudfront</td></tr> <tr><td>Via</td><td>1.1 b43c04a791e8dcb8ddb6bb0847fcf95a.cloudfront.net (CloudFront)</td></tr> <tr><td>X-Amz-Cf-Pop</td><td>FRA60-P3</td></tr> <tr><td>Alt-Svc</td><td>h3=\":443\"; ma=86400</td></tr> <tr><td>X-Amz-Cf-Id</td><td>dMFeiuCBuHU_QDh6LXJv2jxDAdH0TiD6zsFUtf9quYDHlPuHGAtEWA==</td></tr> <tr><td>Age</td><td>39824</td></tr> </table>",
+      "ref": null,
+      "tag": null,
+      "title": "HTTP Headers found",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "This header defines type of encoding used on the data. (e.g. compression).",
+      "ref": [
+        "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields ",
+        "https://en.wikipedia.org/wiki/HTTP_compression"
+      ],
+      "tag": null,
+      "title": "Content encoding was clearly defined in HTTP Headers.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "Correctly defined HTTP headers help web bots understand the content.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/MIME"
+      ],
+      "tag": null,
+      "title": "Content type was clearly defined.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": " Expires was not defined. <br /> <strong>Last-Modified</strong> was clearly defined in HTTP headers: <strong>Mon, 10 Nov 2025 18:48:57 GMT</strong>. <br/> <strong>Etag</strong> was clearly defined in HTTP headers: <strong>W/\"47ad03efb6617283aeea5f41b54c1f1c\"</strong>. <br />\nHTTP caching headers are critical to improve web archiving bots performance\nbecause they help avoid downloading unmodified content multiple times.",
+      "ref": [
+        "https://developers.google.com/speed/docs/best-practices/caching"
+      ],
+      "tag": null,
+      "title": "HTTP caching headers enabled.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "<pre>Disallow: /1.<br />Disallow: /0.<br />Disallow: /book/first-edition/<br />Disallow: /book/second-edition/<br />Disallow: /stable/book/first-edition/<br />Disallow: /stable/book/second-edition/<br />Disallow: /beta/book/first-edition/<br />Disallow: /beta/book/second-edition/<br />Disallow: /nightly/book/first-edition/<br />Disallow: /nightly/book/second-edition/</pre>\nDisallow: commands are used to block web bots from specific website areas.\nThey may cause web archiving problems.",
+      "ref": [
+        "http://www.robotstxt.org/robotstxt.html"
+      ],
+      "tag": null,
+      "title": "There are \"Disallow:\" commands in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "This is used to tell web robots where your sitemap is located and increase site accessiblity.",
+      "ref": [
+        "http://www.advancedhtml.co.uk/robots-sitemaps.htm"
+      ],
+      "tag": null,
+      "title": "There is a sitemap.xml reference in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "Sitemaps are an easy way for webmasters to inform web bots about available web pages so that they can more intelligently crawl the site.",
+      "ref": [
+        "http://www.sitemaps.org/"
+      ],
+      "tag": null,
+      "title": "No sitemap.xml found.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": "Therefore, it is easier to be archived.",
+      "ref": null,
+      "tag": null,
+      "title": "No images found in this page.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "Proprietary formats are not recommended for long term preservation. Please consider changing your content to open formats.",
+      "ref": [
+        "http://www.ands.org.au/guides/file-formats-working.html"
+      ],
+      "tag": null,
+      "title": "You are not using any external proprietary objects (Flash, Quicktime).",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Website performance affects greatly the process of data aggregation and web accessibility. Performance evaluation rating is 100 when response time is 200ms or less and 0 when response time is more than 2sec.",
+      "ref": [
+        "https://developers.google.com/speed/docs/insights/Server"
+      ],
+      "tag": null,
+      "title": "Network response time is 45 ms",
+      "weight": "HIGH"
+    }
+  ],
+  "test": {
+    "Accessibility": 61,
+    "Accessibility_weight": "medium",
+    "Cohesion": 100,
+    "Cohesion_weight": "medium",
+    "Metadata": 100,
+    "Metadata_weight": "medium",
+    "Standards_Compliance": 23,
+    "Standards_Compliance_weight": "medium",
+    "website_archivability": 71
+  },
+  "test_id": 499155,
+  "url": "https://doc.rust-lang.org/book/"
+}

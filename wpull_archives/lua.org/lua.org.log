@@ -1,0 +1,529 @@
+2025-11-25 22:47:19,780 - wpull.database.sqltable - DEBUG - Setting pragmas.
+2025-11-25 22:47:19,785 - wpull.application.tasks.database - DEBUG - Releasing any in-progress items in database.
+2025-11-25 22:47:19,798 - wpull.application.tasks.download - DEBUG - Loaded cookies: []
+2025-11-25 22:47:19,798 - root - DEBUG - Wpull needs the root logger level set to DEBUG.
+2025-11-25 22:47:19,798 - wpull.warc.recorder - DEBUG - WARC file at /Users/vasilii/Documents/Python/lua.org/lua.org.warc.gz
+2025-11-25 22:47:19,799 - wpull.warc.recorder - DEBUG - Writing WARC record warcinfo.
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.app.Application object at 0x10b44e948> registered event Event.pipeline_begin
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.app.Application object at 0x10b44e948> registered event Event.pipeline_end
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.database.wrap.URLTableHookWrapper object at 0x10b48fb48> registered event PluginFunctions.queued_url
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.database.wrap.URLTableHookWrapper object at 0x10b48fb48> registered event PluginFunctions.dequeued_url
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.network.dns.Resolver object at 0x10b672e48> registered event PluginFunctions.resolve_dns
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.network.dns.Resolver object at 0x10b672e48> registered event PluginFunctions.resolve_dns_result
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.network.dns.Resolver object at 0x10b672e48> registered hook PluginFunctions.resolve_dns
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.protocol.http.client.Client object at 0x10b679208> registered event ClientEvent.new_session
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.protocol.ftp.client.Client object at 0x10b679308> registered event ClientEvent.new_session
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.FetchRule object at 0x10b699d08> registered event PluginFunctions.accept_url
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.FetchRule object at 0x10b699d08> registered hook PluginFunctions.accept_url
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered event PluginFunctions.wait_time
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered event PluginFunctions.handle_response
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered event PluginFunctions.handle_pre_response
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered event PluginFunctions.handle_error
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered hook PluginFunctions.wait_time
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered hook PluginFunctions.handle_response
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered hook PluginFunctions.handle_pre_response
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x10b699a48> registered hook PluginFunctions.handle_error
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ProcessingRule object at 0x10b699fc8> registered event PluginFunctions.get_urls
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.tasks.stats.StatsStopTask object at 0x10b446e08> registered event PluginFunctions.finishing_statistics
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.tasks.shutdown.AppStopTask object at 0x10b44e488> registered event PluginFunctions.exit_status
+2025-11-25 22:47:19,800 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.tasks.shutdown.AppStopTask object at 0x10b44e488> registered hook PluginFunctions.exit_status
+2025-11-25 22:47:19,801 - yapsy - DEBUG - correct subclass tests failed for: _ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,801 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,801 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,801 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: __file__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: __name__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: __package__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: _logger in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: gettext in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: logging in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: LOG_DEBUG in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,802 - yapsy - DEBUG - correct subclass tests failed for: LOG_VERBOSE in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __file__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __name__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __package__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: cast in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: new_encoded_stream in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __file__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __name__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __package__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,803 - yapsy - DEBUG - correct subclass tests failed for: event in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: _ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __file__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __name__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __package__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: _logger in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: atexit in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: gettext in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: logging in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,811 - yapsy - DEBUG - correct subclass tests failed for: socket in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,812 - yapsy - DEBUG - correct subclass tests failed for: tornado in /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin
+Traceback (most recent call last):
+  File "/Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/yapsy/PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2025-11-25 22:47:19,812 - wpull.application.tasks.plugin - DEBUG - Found plugin arg_warning_plugin_py from /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/arg_warning.plugin.py.
+2025-11-25 22:47:19,812 - yapsy - DEBUG - Activating plugin: Default.arg_warning_plugin_py
+2025-11-25 22:47:19,812 - wpull.application.tasks.plugin - DEBUG - Found plugin debug_console_plugin_py from /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/debug_console.plugin.py.
+2025-11-25 22:47:19,812 - yapsy - DEBUG - Activating plugin: Default.debug_console_plugin_py
+2025-11-25 22:47:19,812 - wpull.application.tasks.plugin - DEBUG - Found plugin download_progress_plugin_py from /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/download_progress.plugin.py.
+2025-11-25 22:47:19,812 - yapsy - DEBUG - Activating plugin: Default.download_progress_plugin_py
+2025-11-25 22:47:19,813 - wpull.application.tasks.plugin - DEBUG - Found plugin server_response_plugin_py from /Users/vasilii/.pyenv/versions/3.6.15/lib/python3.6/site-packages/wpull/application/plugins/server_response.plugin.py.
+2025-11-25 22:47:19,813 - wpull.application.tasks.database - DEBUG - Parsing URL https://www.lua.org/manual/5.4/
+2025-11-25 22:47:19,813 - wpull.application.tasks.database - DEBUG - Parsed URL <URLInfo at 0x10b7d3518 url=https://www.lua.org/manual/5.4/ raw=https://www.lua.org/manual/5.4/>
+2025-11-25 22:47:19,813 - wpull.application.tasks.database - DEBUG - Rewritten URL <URLInfo at 0x10b7d3728 url=https://www.lua.org/manual/5.4/ raw=https://www.lua.org/manual/5.4/?#>
+2025-11-25 22:47:19,814 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.app.AppSession object at 0x10b4417c8>
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Producer stopping.
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Put poison pill.
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Worker quitting.
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - 1 worker tasks completed
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Exited workers loop.
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Waiting for producer to stop.
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Creating worker
+2025-11-25 22:47:19,815 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:19,818 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:19,819 - wpull.pipeline.pipeline - DEBUG - Worker process id=0
+2025-11-25 22:47:19,819 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b8249c8>
+2025-11-25 22:47:19,819 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:19,819 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:19,819 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/’.
+2025-11-25 22:47:19,820 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/, HTTP/1.1)>.
+2025-11-25 22:47:19,820 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:19,820 - wpull.network.dns - DEBUG - Lookup address www.lua.org.
+2025-11-25 22:47:19,820 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:20,066 - wpull.network.dns - DEBUG - Resolved addresses: [_AddressInfo(ip_address='46.175.8.47', family=<AddressFamily.AF_INET: 2>, flow_info=None, scope_id=None)].
+2025-11-25 22:47:20,067 - wpull.network.connection - DEBUG - Connecting to ('46.175.8.47', 443).
+2025-11-25 22:47:20,587 - wpull.network.connection - DEBUG - Schedule check function.
+2025-11-25 22:47:20,587 - wpull.network.connection - DEBUG - Connected.
+2025-11-25 22:47:20,588 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:20,589 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:20,589 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:20,700 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:20,701 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:20,797 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:20,800 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/.
+2025-11-25 22:47:20,802 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:20,802 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/’: 200 OK. Length: 32733 [text/html].
+2025-11-25 22:47:20,804 - wpull.document.util - DEBUG - Got encoding: iso8859-1
+2025-11-25 22:47:20,855 - wpull.processor.rule - DEBUG - Candidate URLs: inline=3 linked=540
+2025-11-25 22:47:20,856 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/ status Status.done.
+2025-11-25 22:47:20,857 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:20,857 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:20,973 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b8249c8>
+2025-11-25 22:47:20,973 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:20,975 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:20,976 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b846dc8>
+2025-11-25 22:47:20,976 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:20,976 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:20,976 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/manual.html’.
+2025-11-25 22:47:20,977 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/manual.html, HTTP/1.1)>.
+2025-11-25 22:47:20,977 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:20,977 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:20,977 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:20,978 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:20,978 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:21,108 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:21,109 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:21,521 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:21,537 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/manual.html.
+2025-11-25 22:47:21,537 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:21,537 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/manual.html’: 200 OK. Length: 362125 [text/html].
+2025-11-25 22:47:21,538 - wpull.document.util - DEBUG - Got encoding: iso8859-1
+2025-11-25 22:47:21,673 - wpull.processor.rule - DEBUG - Candidate URLs: inline=3 linked=223
+2025-11-25 22:47:21,673 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/manual.html status Status.done.
+2025-11-25 22:47:21,675 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:21,676 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:21,785 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b846dc8>
+2025-11-25 22:47:21,785 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b846408>
+2025-11-25 22:47:21,785 - wpull.processor.web - DEBUG - Robots filter verdict False reason filters
+2025-11-25 22:47:21,785 - wpull.pipeline.session - DEBUG - Skipping ‘https://www.lua.org/pil/’.
+2025-11-25 22:47:21,786 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b846408>
+2025-11-25 22:47:21,786 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:21,787 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b81df08>
+2025-11-25 22:47:21,787 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:21,787 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:21,788 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/index.css’.
+2025-11-25 22:47:21,788 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/index.css, HTTP/1.1)>.
+2025-11-25 22:47:21,788 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:21,788 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:21,788 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:21,789 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:21,789 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:21,906 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:21,907 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:21,907 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:21,908 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/index.css.
+2025-11-25 22:47:21,908 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:21,908 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/index.css’: 200 OK. Length: 240 [text/css].
+2025-11-25 22:47:21,910 - wpull.document.util - DEBUG - Got encoding: utf-8
+2025-11-25 22:47:21,910 - wpull.processor.rule - DEBUG - Candidate URLs: inline=0 linked=0
+2025-11-25 22:47:21,910 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/index.css status Status.done.
+2025-11-25 22:47:21,911 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:21,911 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:22,012 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b81df08>
+2025-11-25 22:47:22,012 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b97c9c8>
+2025-11-25 22:47:22,012 - wpull.processor.web - DEBUG - Robots filter verdict False reason filters
+2025-11-25 22:47:22,012 - wpull.pipeline.session - DEBUG - Skipping ‘https://www.lua.org/license.html’.
+2025-11-25 22:47:22,013 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b97c9c8>
+2025-11-25 22:47:22,013 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:22,014 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b8a2ac8>
+2025-11-25 22:47:22,014 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:22,015 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:22,015 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/lua.css’.
+2025-11-25 22:47:22,015 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/lua.css, HTTP/1.1)>.
+2025-11-25 22:47:22,015 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:22,015 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:22,016 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:22,016 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:22,016 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:22,103 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:22,103 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:22,104 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:22,104 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/lua.css.
+2025-11-25 22:47:22,104 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:22,105 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/lua.css’: 200 OK. Length: 2247 [text/css].
+2025-11-25 22:47:22,107 - wpull.document.util - DEBUG - Got encoding: utf-8
+2025-11-25 22:47:22,107 - wpull.processor.rule - DEBUG - Candidate URLs: inline=1 linked=0
+2025-11-25 22:47:22,107 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/lua.css status Status.done.
+2025-11-25 22:47:22,108 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:22,108 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:22,211 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b8a2ac8>
+2025-11-25 22:47:22,212 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b8d1148>
+2025-11-25 22:47:22,212 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:22,212 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:22,212 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/logo.gif’.
+2025-11-25 22:47:22,213 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/logo.gif, HTTP/1.1)>.
+2025-11-25 22:47:22,213 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:22,213 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:22,214 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:22,214 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:22,215 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:22,338 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:22,340 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:22,341 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:22,343 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/logo.gif.
+2025-11-25 22:47:22,343 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:22,344 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/logo.gif’: 200 OK. Length: 9893 [image/gif].
+2025-11-25 22:47:22,345 - wpull.processor.rule - DEBUG - Candidate URLs: inline=0 linked=0
+2025-11-25 22:47:22,345 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/logo.gif status Status.done.
+2025-11-25 22:47:22,347 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:22,347 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:22,447 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b8d1148>
+2025-11-25 22:47:22,448 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b824fc8>
+2025-11-25 22:47:22,448 - wpull.processor.web - DEBUG - Robots filter verdict False reason filters
+2025-11-25 22:47:22,448 - wpull.pipeline.session - DEBUG - Skipping ‘https://www.lua.org/’.
+2025-11-25 22:47:22,450 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b824fc8>
+2025-11-25 22:47:22,450 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:22,455 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b8aa188>
+2025-11-25 22:47:22,455 - wpull.processor.web - DEBUG - Robots filter verdict False reason filters
+2025-11-25 22:47:22,455 - wpull.pipeline.session - DEBUG - Skipping ‘https://www.lua.org/manual/’.
+2025-11-25 22:47:22,457 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b8aa188>
+2025-11-25 22:47:22,457 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:22,461 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b8d1148>
+2025-11-25 22:47:22,461 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:22,462 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:22,462 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/contents.html’.
+2025-11-25 22:47:22,463 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/contents.html, HTTP/1.1)>.
+2025-11-25 22:47:22,463 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:22,463 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:22,464 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:22,464 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:22,464 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:22,526 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:22,527 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:22,646 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:22,649 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/contents.html.
+2025-11-25 22:47:22,650 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:22,650 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/contents.html’: 200 OK. Length: 32733 [text/html].
+2025-11-25 22:47:22,652 - wpull.document.util - DEBUG - Got encoding: iso8859-1
+2025-11-25 22:47:22,716 - wpull.processor.rule - DEBUG - Candidate URLs: inline=3 linked=0
+2025-11-25 22:47:22,716 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/contents.html status Status.done.
+2025-11-25 22:47:22,717 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:22,718 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:22,819 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b8d1148>
+2025-11-25 22:47:22,819 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b91fdc8>
+2025-11-25 22:47:22,820 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:22,820 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:22,820 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/manual.css’.
+2025-11-25 22:47:22,820 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/manual.css, HTTP/1.1)>.
+2025-11-25 22:47:22,820 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:22,820 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:22,821 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:22,821 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:22,821 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:22,923 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:22,924 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:22,924 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:22,924 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/manual.css.
+2025-11-25 22:47:22,925 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:22,925 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/manual.css’: 200 OK. Length: 256 [text/css].
+2025-11-25 22:47:22,926 - wpull.document.util - DEBUG - Got encoding: utf-8
+2025-11-25 22:47:22,926 - wpull.processor.rule - DEBUG - Candidate URLs: inline=0 linked=0
+2025-11-25 22:47:22,926 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/manual.css status Status.done.
+2025-11-25 22:47:22,927 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:22,927 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:23,028 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b91fdc8>
+2025-11-25 22:47:23,028 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x10b80de08>
+2025-11-25 22:47:23,028 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2025-11-25 22:47:23,029 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2025-11-25 22:47:23,029 - wpull.processor.web - INFO - Fetching ‘https://www.lua.org/manual/5.4/images/search.png’.
+2025-11-25 22:47:23,030 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, https://www.lua.org/manual/5.4/images/search.png, HTTP/1.1)>.
+2025-11-25 22:47:23,030 - wpull.network.pool - DEBUG - Check out ('www.lua.org', 443, True)
+2025-11-25 22:47:23,030 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2025-11-25 22:47:23,030 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2025-11-25 22:47:23,031 - wpull.protocol.http.stream - DEBUG - Reading header.
+2025-11-25 22:47:23,031 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,158 - wpull.protocol.http.web - DEBUG - Handling response
+2025-11-25 22:47:23,160 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2025-11-25 22:47:23,161 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2025-11-25 22:47:23,162 - wpull.warc.recorder - DEBUG - Writing CDX record https://www.lua.org/manual/5.4/images/search.png.
+2025-11-25 22:47:23,163 - wpull.network.pool - DEBUG - No wait check in.
+2025-11-25 22:47:23,163 - wpull.processor.web - INFO - Fetched ‘https://www.lua.org/manual/5.4/images/search.png’: 404 Not Found. Length: 153 [text/html].
+2025-11-25 22:47:23,165 - wpull.pipeline.session - DEBUG - Marking URL https://www.lua.org/manual/5.4/images/search.png status Status.skipped.
+2025-11-25 22:47:23,167 - wpull.processor.web - DEBUG - Sleeping 0.1
+2025-11-25 22:47:23,167 - wpull.network.pool - DEBUG - Check in ('www.lua.org', 443, True)
+2025-11-25 22:47:23,269 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x10b80de08>
+2025-11-25 22:47:23,269 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,274 - wpull.pipeline.pipeline - DEBUG - Producer stopping.
+2025-11-25 22:47:23,275 - wpull.pipeline.pipeline - DEBUG - Put poison pill.
+2025-11-25 22:47:23,275 - wpull.pipeline.pipeline - DEBUG - Worker quitting.
+2025-11-25 22:47:23,275 - wpull.pipeline.pipeline - DEBUG - 1 worker tasks completed
+2025-11-25 22:47:23,275 - wpull.pipeline.pipeline - DEBUG - Exited workers loop.
+2025-11-25 22:47:23,275 - wpull.pipeline.pipeline - DEBUG - Waiting for producer to stop.
+2025-11-25 22:47:23,276 - wpull.pipeline.pipeline - DEBUG - Creating worker
+2025-11-25 22:47:23,276 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,276 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,276 - wpull.pipeline.pipeline - DEBUG - Worker process id=0
+2025-11-25 22:47:23,276 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.app.AppSession object at 0x10b4417c8>
+2025-11-25 22:47:23,276 - wpull.application.tasks.stats - INFO - FINISHED.
+2025-11-25 22:47:23,277 - wpull.application.tasks.stats - INFO - Duration: 0:00:03. Speed: 137.4 KiB/s.
+2025-11-25 22:47:23,277 - wpull.application.tasks.stats - INFO - Downloaded: 7 files, 429.9 KiB.
+2025-11-25 22:47:23,277 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.app.AppSession object at 0x10b4417c8>
+2025-11-25 22:47:23,277 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,277 - wpull.pipeline.pipeline - DEBUG - Producer stopping.
+2025-11-25 22:47:23,277 - wpull.pipeline.pipeline - DEBUG - Put poison pill.
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - Worker quitting.
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - 1 worker tasks completed
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - Exited workers loop.
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - Waiting for producer to stop.
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - Creating worker
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - Producer stopping.
+2025-11-25 22:47:23,278 - wpull.pipeline.pipeline - DEBUG - Put poison pill.
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Worker process id=0
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Worker quitting.
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - 1 worker tasks completed
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Exited workers loop.
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Waiting for producer to stop.
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Creating worker
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Worker process id=0
+2025-11-25 22:47:23,279 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.app.AppSession object at 0x10b4417c8>
+2025-11-25 22:47:23,280 - wpull.warc.recorder - DEBUG - Writing WARC record resource.
