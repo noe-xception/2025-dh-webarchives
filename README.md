@@ -52,7 +52,7 @@
 
 ## Контакты
 
-[Telegram](t.me/new_ease)
+[Telegram](https://t.me/new_ease)
 
 ## Условия использования
 
